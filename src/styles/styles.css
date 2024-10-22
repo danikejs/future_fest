@@ -258,7 +258,6 @@ header {
     gap: 24px;
     margin-top: 32px;
 }
-
 .lesson-image{
     height: 120px;
     width: 120px;
@@ -409,3 +408,11 @@ header {
     }
 } 
 
+#time .section-subtitle span {
+    color: #253567;
+}
+
+iframe{
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
