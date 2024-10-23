@@ -6,7 +6,7 @@
 
 html, body {
     height: 100%;
-    margin: 0; /* Removendo margens padrão do body */
+    margin: 0; 
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     background-image: url("../IMG/fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Poppins", sans-serif; /* Fonte Poppins */
+    font-family: "Poppins", sans-serif; 
     color: #000;
     animation: rotate 6s infinite alternate linear;
 }
@@ -25,12 +25,12 @@ body {
     position: relative;
     z-index: 3;
     width: 100%;
-    max-width: 400px; /* Limite máximo de largura */
-    margin: 20px; /* Margem para espaçamento */
+    max-width: 400px; 
+    margin: 20px; 
     padding: 50px 30px;
     border-radius: 1.25rem;
-    background: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -42,17 +42,17 @@ body {
 }
 
 .container img {
-    max-width: 100px; /* Limita a largura da imagem */
+    max-width: 100px;
 }
 
 .login-card h2 {
-    font-size: 2rem; /* Tamanho de fonte maior */
+    font-size: 2rem; 
     font-weight: 600;
     margin: 0 0 12px;
 }
 
 .login-card h3 {
-    color: rgba(0, 0, 0, 0.5); /* Cor mais escura e com opacidade */
+    color: rgba(0, 0, 0, 0.5); 
     margin: 0 0 30px;
     font-weight: 500;
     font-size: 1rem;
@@ -80,24 +80,24 @@ body {
 }
 
 .login-form input:hover {
-    border-color: #007BFF; /* Alterado para uma cor azul mais suave */
+    border-color: #007BFF; 
 }
 
 .login-form button {
     cursor: pointer;
-    background: #253567; /* Mantendo a cor do botão */
+    background: #253567;
     color: #f9f9f9;
     border: 0;
     font-family: inherit;
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
-    letter-spacing: 1px; /* Diminuindo o espaçamento entre letras */
+    letter-spacing: 1px; 
     padding: 0 16px;
 }
 
 .login-form button:hover {
-    background: #10449A; /* Cor de hover mais escura */
+    background: #10449A;
 }
 
 .login-form a {
@@ -110,7 +110,7 @@ body {
 }
 
 .login-form a:hover {
-    color: #10449A; /* Cor do link ao passar o mouse */
+    color: #10449A; 
 }
 
 @keyframes rotate {
@@ -119,31 +119,31 @@ body {
     }
 }
 
-/* Media query para dispositivos maiores que 500px */
+
 @media (min-width: 500px) {
     .login-card {
-        margin: 0; /* Remove a margem para telas maiores */
-        padding: 70px 30px 44px; /* Mantém o padding original */
+        margin: 0; 
+        padding: 70px 30px 44px; 
     }
 }
 
-/* Media query para dispositivos menores que 500px */
+
 @media (max-width: 499px) {
     .login-card {
         width: 90%;
-        padding: 40px 20px; /* Diminuindo o padding */
+        padding: 40px 20px; 
     }
     
     .login-form input,
     .login-form button {
-        height: 45px; /* Altura reduzida para campos de input e botão */
+        height: 45px;
     }
 
     .login-card h2 {
-        font-size: 1.5rem; /* Tamanho de fonte ajustado */
+        font-size: 1.5rem; 
     }
 
     .login-card h3 {
-        font-size: 0.9rem; /* Ajuste para h3 */
+        font-size: 0.9rem; 
     }
 }
