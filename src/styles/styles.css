@@ -260,8 +260,10 @@ header {
     margin-top: 32px;
 }
 .lesson-image{
-    height: 120px;
-    width: 120px;
+    border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
 }
 
 .lesson {
