@@ -6,7 +6,7 @@
 
 html, body {
     height: 100%;
-    margin: 0; 
+    margin: 0;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
 }
 
 .container img {
-    max-width: 100px;
+    max-width: 140px;
 }
 
 .login-card h2 {
