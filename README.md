@@ -27,11 +27,6 @@ Este é o código-fonte para o site **Papo de Grana**, uma plataforma educativa 
 - **Font Awesome**: Ícones de redes sociais e navegação.
 - **Chatbot API**: Chatbot educacional para tirar dúvidas dos usuários.
 
-## Pré-requisitos
-
-- **Font Awesome**: Incluído via CDN para ícones.
-- **jQuery**: Incluído via CDN para manipulação de DOM.
-- **Navegador Moderno**: Suporte para HTML5, CSS3 e JavaScript.
 
 ## Instruções de Instalação
 
