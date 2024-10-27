@@ -35,12 +35,7 @@ Este é o código-fonte para o site **Papo de Grana**, uma plataforma educativa 
     git clone https://github.com/danikejs/future_fest.git
     ```
 
-2. Navegue até a pasta do projeto:
-    ```bash
-    cd papo-de-grana
-    ```
-
-3. Abra o arquivo `index.html` em seu navegador para visualizar o site.
+2. Abra o arquivo `index.html` em seu navegador para visualizar o site.
 
 
 **Aproveite o aprendizado e fique em dia com suas finanças no Papo de Grana!**
