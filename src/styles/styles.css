@@ -19,12 +19,12 @@ section{
     padding: 28px 8%;
 }
 
-.social-media-buttons {
+.btn-redes-sociais {
     display: flex;
     gap: 8px;
 }
 
-.social-media-buttons a {
+.btn-redes-sociais a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,16 +38,16 @@ section{
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow .3s ease;
 }
-.social-media-buttons a:hover{
+.btn-redes-sociais a:hover{
     box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
 
-.section-title {
+.titulo {
     color: #253567;
     font-size: 1.563rem;
 }
 
-.section-subtitle{
+.subtitulo{
     font-size: 2.1875rem;
 }
 
@@ -176,7 +176,7 @@ html {
 
 }
 
-#cta{
+#pag{
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -184,33 +184,33 @@ html {
     margin-top: 5%;
 }
 
-#cta .title {
+#pag .title {
     font-size: 4rem;
     color: #1d1d1d;
 }
 
 
-#cta .title span {
+#pag .title span {
     color: #253567;
 }
 
-#cta .description {
+#pag .description {
     font-size: 1.2rem;
     color: #434343;
 }
 
-#cta .description span {
+#pag .description span {
     color: #253567;
     font-size: 1.3rem;
 }
 
 
-#cta_buttons {
+#pag_buttons {
     display: flex;
     gap: 24px;
 }
 
-#cta_buttons a {
+#pag_buttons a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -251,7 +251,7 @@ html {
         display: none;
     }
 
-    #cta{
+    #pag{
         width: 100%;
         text-align: center;
         align-items: center;
@@ -275,7 +275,7 @@ html {
     gap: 24px;
     margin-top: 32px;
 }
-.lesson-image{
+.lesson-img{
     border-radius: 50%;
   width: 120px;
   height: 120px;
@@ -297,7 +297,7 @@ html {
     overflow: hidden;
 }
 
-.lesson-heart {
+.lesson-coracao {
     position: absolute;
     background-color: #253567;
     display: flex;
@@ -312,21 +312,21 @@ html {
     border-radius: 0px 37.5px 0px 42.5px;
 }
 
-.lesson-description {
+.lesson-descricao {
     color: #434343;
     text-align: center;
 }
 
-.lesson-rate i {
+.lesson-avaliar i {
     color: #253567;
 }
 
-.lesson-title {
+.lesson-titulo {
     text-align: center;
 }
 
 
-.lesson-star     {
+.lesson-estrela {
     display: flex;
     align-items: center;
     gap: 20px;
