@@ -14,9 +14,7 @@
     color: inherit; 
 }
 
-.btn-default:hover{
-    background-color: #253567;
-}
+
 
 
 #banneraulas {
@@ -55,7 +53,7 @@ body{
     font-size: 2.1875rem;
 }
 
-/* header */
+
 header {
     width: 100%;
     padding: 9px 8%;
@@ -140,7 +138,7 @@ header {
     } 
 }
 
-/* botoes  */
+
 
 html {
     scroll-behavior: smooth;
@@ -217,6 +215,6 @@ ul, ol {
 }
 
 .btn-default:hover {
-    background-color: rgb(161, 0, 0);
+    background-color: #313e64;
 }
 

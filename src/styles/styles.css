@@ -370,6 +370,46 @@ html {
     color: #253567;
 }
 
+/*assinatura*/
+#assinatura {
+    background-color: #f8f8f8; 
+    padding: 40px 8%; 
+    text-align: center;
+    margin-top: 40px; 
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#assinatura h2 {
+    font-size: 2.1875rem; 
+    color: #253567; 
+    margin-bottom: 15px; 
+}
+
+#assinatura p {
+    font-size: 1.25rem; 
+    color: #434343;
+    margin-bottom: 20px;
+}
+
+#assinatura .btn-default {
+    background-color: #253567; 
+    color: #ffffff; 
+    padding: 12px 30px; 
+    font-size: 1rem; 
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    text-decoration: none; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    transition: background-color 0.3s ease; 
+}
+
+#assinatura .btn-default:hover {
+    background-color: #313e64; 
+}
+
 
 /* Team */
 
@@ -446,3 +486,6 @@ iframe{
     border-radius: 20px;
 }
 
+.btn-default:hover {
+    background-color: #313e64;
+}
