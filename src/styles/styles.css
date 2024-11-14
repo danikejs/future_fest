@@ -47,6 +47,10 @@ section{
     font-size: 1.563rem;
 }
 
+.subtitulo span {
+    color:#253567;
+}
+
 .subtitulo{
     font-size: 2.1875rem;
 }
@@ -69,8 +73,8 @@ header {
 }
 
 #nav_logo {
-    width: 100px;
-    height: 90px
+    width: 105px;
+    height: 95px;
 }
 
 #login{
@@ -193,6 +197,7 @@ html {
 #pag .title span {
     color: #253567;
 }
+
 
 #pag .description {
     font-size: 1.2rem;
@@ -333,7 +338,7 @@ html {
     color: #ffffff;
 }
 
-.fa-solid-fa-play{
+.fa-solid-fa-arrow-down{
     color: #ffffff;
 }
 
@@ -490,4 +495,21 @@ iframe{
 
 .btn-default:hover {
     background-color: #313e64;
+}
+
+.team-descricao {
+    color: #434343;
+    text-align: center;
+}
+
+
+.team-titulo {
+    text-align: center;
+}
+
+.team-img{
+    border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
 }
