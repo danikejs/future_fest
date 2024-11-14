@@ -464,12 +464,12 @@ html {
 
 
 @media screen and (max-width: 1170px) {
-    #time {
+    #teams {
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .teams {
+    .team {
         width: calc(50% - 12px);
     }
 }
@@ -484,9 +484,6 @@ html {
     }
 } 
 
-#time .section-subtitle span {
-    color: #253567;
-}
 
 iframe{
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
